@@ -1,11 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
 
 * {
-    font-family: 'Mukta', sans-serif;
+    font-family: "Mukta", sans-serif;
     text-align: center;
     margin: 20;
-    padding:20;
+    padding: 20;
     box-sizing: border-box;
 }
 
@@ -17,7 +16,7 @@ body {
 #fechamento {
     position: relative;
 }
-/*
+
 li {
     list-style: none;
 }
@@ -25,18 +24,18 @@ a {
     color: #000;
     text-decoration: none;
 }
-*/
+
 img {
     max-width: 50%;
     max-height: 50%;
     align: center;
 }
 
-/* .container { */
-/*     max-width: 800px; */
-/*     width: 100%; */
-/*     margin: 0 auto; */
-/* } */
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 .btn {
     padding: 0 20px;
@@ -49,7 +48,10 @@ img {
     background: transparent;
     cursor: pointer;
 }
+.citation {
+    font-size: 1px;
 
+}
 .grid {
     display: flex;
 }
@@ -72,7 +74,7 @@ header {
 }
 
 .logo {
-    width: 60vw;
+    width: 10vw;
 }
 
 @media (max-width: 650px) {
@@ -107,6 +109,7 @@ nav {
 @media (max-width: 650px) {
     nav {
         margin-top: 10px;
+        margin-bottom: 20px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -120,7 +123,7 @@ nav {
 }
 
 nav > ul {
-    width: 35vw;
+    width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
